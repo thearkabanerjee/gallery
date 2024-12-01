@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purbasha's Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="front-page" class="front-page">
+        <div class = "image-container">
+            <img src="rb_2150591969.png" alt="Background image " class ="background-image" height="500" width="500">
+            <div class = "text-overlay">
+                <h1>Her, in Every Moment</h1>
+                <p><i>"Because Every Moment with You is a Masterpiece worth Cherishing ..."</i></p>
+            </div>
+        </div>
+        <button onclick="enterGallery()">Lumos Memories! ✨</button>
+       
+    </div>
+
+    <div id="gallery-page" class="gallery-page hidden">
+        <h2>Purbasha's Stunning Gallery</h2>
+        <audio id="background-music" loop>
+            <source src="blue.mp3" type="audio/mpeg">
+            
+        </audio>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Purbasha 1">
+                <p>You light up every moment like a star.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Purbasha 2">
+                <p>Your smile is a melody to the heart.</p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="Purbasha 3">
+                <p>You light up every moment like a star.</p>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="Purbasha 4">
+                <p>Your smile is a melody to the heart.</p>
+            </div>
+        </div>
+        
+        
+        <button onclick="goBack()">Back to Home</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
